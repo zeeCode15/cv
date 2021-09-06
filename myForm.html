@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <style>
+        .content {
+            max-width: 1400px;
+            margin: auto;
+        }
+
+        body {
+            font-size: 150%;
+        }
+    </style>
+
+
+</head>
+
+<body style="background-color: rgba(236, 204, 168, 0.301);">
+
+    <hr size="5" noshade="">
+    <center>
+        <h3> Tell us about you  📝 </h3>
+
+    </center>
+    <hr size="5" noshade="">
+
+    <div class="content">
+        <form action="backend.php">
+
+
+
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" name="myName" id="name">
+            </div>
+            <br>
+    
+            <div> Role: <input type="text" name="myRole"> </div>
+            <br>
+    
+            <div> Email: <input type="email" name="myEmail"> </div>
+            <br>
+    
+    
+            <div>
+                DOB: <input type="date" name="myDob" id="">
+            </div>
+            <br>
+    
+    
+            <div>
+                Bonus: <input type="number" name="myNumber" id="">
+    
+            </div>
+            <br>
+    
+    
+    
+    
+            <div>
+                Gender: Male <input type="radio" name="myGender">
+                Female <input type="radio" name="myGender">
+                Other <input type="radio" name="myGender">
+            </div>
+            <br>
+            <div>
+                Write about yourself: <br> <textarea name="myText" cols="auto" rows="5"></textarea>
+            </div>
+    
+            <div>
+                Are you eligible: <input type="checkbox" name="myEligibility" checked>
+            </div>
+            <br>
+    
+            <div>
+                <label for="Car">Car:</label>
+                <select name="myCar" id="Car">
+    
+                    <option value="Ferrari">Ferrari</option>
+                    <option value="BMW">BMW</option>
+                    <option value="Mercedes">Mercedes Benz</option>
+                    <option value="Audi">Audi</option>
+                    <option value="Roll's Royce">Roll's Royce</option>
+                    <option value="Range Rover">Range Rover</option>
+                    <option value="AstonMartin">Aston Martin</option>
+    
+    
+    
+                </select>
+    
+    
+            </div><br>
+    
+    
+    
+            <div>
+                <input type="submit" value="Submit Now"> &nbsp; &nbsp;
+                <input type="reset" value="Reset Now">
+            </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        </form>
+    
+
+
+    </div>
+    
+    
+   
+   
+</body>
+
+</html>
