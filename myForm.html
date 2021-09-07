@@ -25,107 +25,124 @@
 
     <hr size="5" noshade="">
     <center>
-        <h3> Tell us about you  📝 </h3>
+        <h3> Tell us about you 📝 </h3>
 
     </center>
     <hr size="5" noshade="">
 
     <div class="content">
-        <form action="backend.php">
 
 
+        <form action="mailto:mdzeeshanahmad10@gmail.com" method="POST" enctype="text/plain">
 
             <div>
-                <label for="name">Name:</label>
+                <label for="name">Name: </label>
                 <input type="text" name="myName" id="name">
             </div>
             <br>
-    
-            <div> Role: <input type="text" name="myRole"> </div>
-            <br>
-    
-            <div> Email: <input type="email" name="myEmail"> </div>
-            <br>
-    
-    
+
             <div>
-                DOB: <input type="date" name="myDob" id="">
+                <label for="myRole">Role: </label>
+                <input type="text" name="myRole" id="myRole">
             </div>
             <br>
-    
-    
+
+
             <div>
-                Bonus: <input type="number" name="myNumber" id="">
-    
+                <label for="mail">Email:</label>
+                <input type="email" name="myEmail" id="mail">
             </div>
             <br>
-    
-    
-    
-    
+
+
             <div>
-                Gender: Male <input type="radio" name="myGender">
-                Female <input type="radio" name="myGender">
-                Other <input type="radio" name="myGender">
+                <label for="phone">Mobile:</label>
+                <input type="number" name="myNumber" id="phone">
             </div>
             <br>
+
+
+
             <div>
-                Write about yourself: <br> <textarea name="myText" cols="auto" rows="5"></textarea>
-            </div>
-    
-            <div>
-                Are you eligible: <input type="checkbox" name="myEligibility" checked>
+                <label for="DOB">DOB:</label>
+                <input type="date" name="myDob" id="DOB">
             </div>
             <br>
-    
+
+
+
+
+
+            <div> Gender:
+                <label for="genderM">Male</label>
+                <input type="radio" name="Male" id="genderM">
+
+                <label for="genderF">Female</label>
+                <input type="radio" name="Female" id="genderF">
+
+                <label for="genderO">Other</label>
+                <input type="radio" name="Other" id="genderO">
+
+            </div>
+            <br>
+
             <div>
-                <label for="Car">Car:</label>
-                <select name="myCar" id="Car">
+                <label for="age">Age:</label>
+                <select name="myAge" id="age">
     
-                    <option value="Ferrari">Ferrari</option>
-                    <option value="BMW">BMW</option>
-                    <option value="Mercedes">Mercedes Benz</option>
-                    <option value="Audi">Audi</option>
-                    <option value="Roll's Royce">Roll's Royce</option>
-                    <option value="Range Rover">Range Rover</option>
-                    <option value="AstonMartin">Aston Martin</option>
+                    <option value="Select">Select</option>
+                    <option value="Below 18">Below 18</option>
+                    <option value="18-25">18-25</option>
+                    <option value="25-30">25-30</option>
+                    <option value="30-35">30-35</option>
+                    <option value="35-40">35-40</option>
+                    <option value="40 & above">40 & above </option>
+                   
     
     
     
                 </select>
-    
-    
-            </div><br>
-    
-    
-    
-            <div>
-                <input type="submit" value="Submit Now"> &nbsp; &nbsp;
-                <input type="reset" value="Reset Now">
             </div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+            <br>
+
+           
+
+            <div>
+                <label for="Blog">Write about yourself:</label>
+            <br>
+            <textarea name="myText" cols="auto" rows="5" id="Blog"></textarea>
+            </div>
+            <br>
+
+        
+
+            <div>
+                <label for="check"> Are you eligible:</label>
+                <input type="checkbox" name="myEligibility" id="check" >
+            </div>
+            <br>
+
+            <div>
+                <label for="photoId">Upload your photo:</label>
+                <input type="file" name="myPhoto" id="photoId">
+            </div>
+            <br>
+            
+
+            <input type="submit" value="Submit Now"> &nbsp; &nbsp;
+            <input type="reset" value="Reset Now">
+
+
+
         </form>
-    
+
 
 
     </div>
-    
-    
-   
-   
+
+
+
+
 </body>
 
 </html>
